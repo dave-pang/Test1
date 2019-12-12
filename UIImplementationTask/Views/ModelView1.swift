@@ -23,6 +23,17 @@ final class ModelView1: UIView {
         super.init(coder: coder)
         setup()
     }
+    
+    var item: ModelItem? {
+        didSet {
+            guard let item = item as? Model1 else { return }
+            
+            imageView.downloaded(from: item.imageURL)
+            titleLabel.text = item.title
+            subtitleLabel.text = item.subTitle
+            button.setTitle(item.buttonType.rawValue, for: .normal)
+        }
+    }
 
     private func setup() {
         backgroundColor = .clear

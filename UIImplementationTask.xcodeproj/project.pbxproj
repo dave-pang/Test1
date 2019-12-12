@@ -19,6 +19,14 @@
 		69F5E10923A1F450008103D4 /* ModelView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E10523A1F450008103D4 /* ModelView3.swift */; };
 		69F5E10A23A1F450008103D4 /* ModelView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F5E10623A1F450008103D4 /* ModelView2.xib */; };
 		69F5E10B23A1F450008103D4 /* ModelView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F5E10723A1F450008103D4 /* ModelView3.xib */; };
+		69F5E10D23A2032B008103D4 /* UIImageView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E10C23A2032B008103D4 /* UIImageView+Custom.swift */; };
+		69F5E11023A20351008103D4 /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E10F23A20351008103D4 /* UIView+Custom.swift */; };
+		69F5E11323A20484008103D4 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E11223A20484008103D4 /* TableViewCell1.swift */; };
+		69F5E11523A2048A008103D4 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E11423A2048A008103D4 /* TableViewCell2.swift */; };
+		69F5E11723A20491008103D4 /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E11623A20490008103D4 /* TableViewCell3.swift */; };
+		69F5E11923A204CC008103D4 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E11823A204CC008103D4 /* DataSource.swift */; };
+		69F5E11B23A20511008103D4 /* NSObject+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E11A23A20511008103D4 /* NSObject+Custom.swift */; };
+		69F5E11D23A20555008103D4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5E11C23A20555008103D4 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,14 @@
 		69F5E10523A1F450008103D4 /* ModelView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelView3.swift; sourceTree = "<group>"; };
 		69F5E10623A1F450008103D4 /* ModelView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModelView2.xib; sourceTree = "<group>"; };
 		69F5E10723A1F450008103D4 /* ModelView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModelView3.xib; sourceTree = "<group>"; };
+		69F5E10C23A2032B008103D4 /* UIImageView+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Custom.swift"; sourceTree = "<group>"; };
+		69F5E10F23A20351008103D4 /* UIView+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
+		69F5E11223A20484008103D4 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		69F5E11423A2048A008103D4 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		69F5E11623A20490008103D4 /* TableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
+		69F5E11823A204CC008103D4 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		69F5E11A23A20511008103D4 /* NSObject+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Custom.swift"; sourceTree = "<group>"; };
+		69F5E11C23A20555008103D4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,10 @@
 		69F5E0EA23A1EC1D008103D4 /* UIImplementationTask */ = {
 			isa = PBXGroup;
 			children = (
+				69F5E11F23A20592008103D4 /* DataSource */,
+				69F5E11E23A2058B008103D4 /* Model */,
+				69F5E11123A20475008103D4 /* Cells */,
+				69F5E10E23A20333008103D4 /* Extension */,
 				69F5E10123A1F27A008103D4 /* Views */,
 				69F5E0EB23A1EC1D008103D4 /* AppDelegate.swift */,
 				69F5E0ED23A1EC1D008103D4 /* SceneDelegate.swift */,
@@ -85,12 +105,48 @@
 			children = (
 				69F5E0FF23A1F275008103D4 /* ModelView1.xib */,
 				69F5E10223A1F28D008103D4 /* ModelView1.swift */,
-				69F5E10423A1F450008103D4 /* ModelView2.swift */,
 				69F5E10623A1F450008103D4 /* ModelView2.xib */,
-				69F5E10523A1F450008103D4 /* ModelView3.swift */,
+				69F5E10423A1F450008103D4 /* ModelView2.swift */,
 				69F5E10723A1F450008103D4 /* ModelView3.xib */,
+				69F5E10523A1F450008103D4 /* ModelView3.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		69F5E10E23A20333008103D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69F5E10C23A2032B008103D4 /* UIImageView+Custom.swift */,
+				69F5E10F23A20351008103D4 /* UIView+Custom.swift */,
+				69F5E11A23A20511008103D4 /* NSObject+Custom.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		69F5E11123A20475008103D4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69F5E11223A20484008103D4 /* TableViewCell1.swift */,
+				69F5E11423A2048A008103D4 /* TableViewCell2.swift */,
+				69F5E11623A20490008103D4 /* TableViewCell3.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		69F5E11E23A2058B008103D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69F5E11C23A20555008103D4 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69F5E11F23A20592008103D4 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				69F5E11823A204CC008103D4 /* DataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F5E11523A2048A008103D4 /* TableViewCell2.swift in Sources */,
+				69F5E11323A20484008103D4 /* TableViewCell1.swift in Sources */,
 				69F5E10923A1F450008103D4 /* ModelView3.swift in Sources */,
 				69F5E10823A1F450008103D4 /* ModelView2.swift in Sources */,
 				69F5E10323A1F28D008103D4 /* ModelView1.swift in Sources */,
+				69F5E11723A20491008103D4 /* TableViewCell3.swift in Sources */,
+				69F5E11923A204CC008103D4 /* DataSource.swift in Sources */,
+				69F5E11D23A20555008103D4 /* Model.swift in Sources */,
+				69F5E11B23A20511008103D4 /* NSObject+Custom.swift in Sources */,
 				69F5E0F023A1EC1D008103D4 /* ViewController.swift in Sources */,
+				69F5E10D23A2032B008103D4 /* UIImageView+Custom.swift in Sources */,
+				69F5E11023A20351008103D4 /* UIView+Custom.swift in Sources */,
 				69F5E0EC23A1EC1D008103D4 /* AppDelegate.swift in Sources */,
 				69F5E0EE23A1EC1D008103D4 /* SceneDelegate.swift in Sources */,
 			);

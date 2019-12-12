@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "1c76460f52b9c0f6a03be58737c1d80f"
+build_time: [1576125044, 26213000]
+inputs:
+  "/Users/mobility/Desktop/UIImplementationTask/UIImplementationTask/Views/ModelView3.swift": [9223372036, 854775807]
+  "/Users/mobility/Desktop/UIImplementationTask/UIImplementationTask/Views/ModelView2.swift": [9223372036, 854775807]
+  "/Users/mobility/Desktop/UIImplementationTask/UIImplementationTask/Views/ModelView1.swift": [9223372036, 854775807]
+  "/Users/mobility/Desktop/UIImplementationTask/UIImplementationTask/ViewController.swift": [9223372036, 854775807]
+  "/Users/mobility/Desktop/UIImplementationTask/UIImplementationTask/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/mobility/Desktop/UIImplementationTask/UIImplementationTask/SceneDelegate.swift": [9223372036, 854775807]

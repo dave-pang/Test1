@@ -22,6 +22,15 @@ final class ModelView3: UIView {
         setup()
     }
 
+    var item: ModelItem? {
+        didSet {
+            guard let item = item as? Model3 else { return }
+            
+            imageView.downloaded(from: item.imageURL)
+            titleLabel.text = item.title
+        }
+    }
+    
     private func setup() {
         backgroundColor = .clear
         guard let view = loadView(nibName: "ModelView3") else { return }

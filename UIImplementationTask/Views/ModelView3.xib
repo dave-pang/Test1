@@ -15,17 +15,18 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="357"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tc7-zk-egW">
-                    <rect key="frame" x="0.0" y="0.0" width="100" height="357"/>
+                    <rect key="frame" x="10" y="0.0" width="100" height="80"/>
                     <constraints>
+                        <constraint firstAttribute="height" constant="80" id="7Bb-RV-B8P"/>
                         <constraint firstAttribute="width" constant="100" id="knE-Jy-wxR"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="746" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrN-7i-rXG">
-                    <rect key="frame" x="110" y="0.0" width="304" height="357"/>
+                    <rect key="frame" x="120" y="0.0" width="284" height="80"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -36,9 +37,9 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="tc7-zk-egW" secondAttribute="bottom" id="DZc-y6-1ce"/>
                 <constraint firstItem="TrN-7i-rXG" firstAttribute="leading" secondItem="tc7-zk-egW" secondAttribute="trailing" constant="10" id="P7V-Pk-wXN"/>
                 <constraint firstAttribute="bottom" secondItem="TrN-7i-rXG" secondAttribute="bottom" id="QYj-7x-SeG"/>
-                <constraint firstAttribute="trailing" secondItem="TrN-7i-rXG" secondAttribute="trailing" id="WjB-r2-7Ng"/>
+                <constraint firstAttribute="trailing" secondItem="TrN-7i-rXG" secondAttribute="trailing" constant="10" id="WjB-r2-7Ng"/>
                 <constraint firstItem="TrN-7i-rXG" firstAttribute="top" secondItem="tc7-zk-egW" secondAttribute="top" id="YXS-QZ-sz0"/>
-                <constraint firstItem="tc7-zk-egW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="aVP-yD-aBS"/>
+                <constraint firstItem="tc7-zk-egW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="aVP-yD-aBS"/>
                 <constraint firstItem="tc7-zk-egW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dHp-oA-dIP"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
